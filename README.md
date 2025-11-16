@@ -1,2 +1,2 @@
 # recurrentpay.cash
-Recurrent Payments in BCH. stablecoin or both, a project for BCH Blaze 2025.
+Recurrent Payments in BCH, stablecoins or both, a project for BCH Blaze 2025.
