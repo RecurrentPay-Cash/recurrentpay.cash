@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: Montserrat;
+    src: url("/src/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+
+@theme{
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-fill: var(--fill);
+  --color-shadow:var(--shadow);
+  --color-bch: #0ac18eff;
+  --filter-primary: var(--filt-primary);
+  --filter-secondary: var(--filt-secondary);
+  --font-montserrat: Montserrat;
+}
+:root {
+  --primary: #00e5e6;
+  --secondary: #2d4e87;
+  --background: #F2F0F0 ;
+  --fill: #A1A6A4;
+  --shadow: #6F7775;
+  --filt-primary: brightness(0) saturate(100%) invert(85%) sepia(68%) saturate(1230%) hue-rotate(104deg) brightness(89%) contrast(102%);
+  --filt-secondary: brightness(0) saturate(100%) invert(24%) sepia(63%) saturate(637%) hue-rotate(179deg) brightness(98%) contrast(89%);
+}
+/* .dark {
+  --primary: #ff0000;
+} */
+ html {
+    padding-top: 100px;
+    scroll-padding-top: 120px;
+    background: var(--color-background)
+ }
