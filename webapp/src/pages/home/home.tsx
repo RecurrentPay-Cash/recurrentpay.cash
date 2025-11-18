@@ -7,7 +7,7 @@ import { Paragraph, Header } from "../../components"
 export const Home = () => {
     return <div className='pt-5'>
         <div className="px-[10dvw]">
-            <img className="px-[10dvw]" src={logoText} alt="logo" />
+            <img className="md:px-[10dvw]" src={logoText} alt="logo" />
             <div id="motivation" className="mb-5">
                 <Header text="Motivation" />
                 <ul className="list-disc list-inside ">
